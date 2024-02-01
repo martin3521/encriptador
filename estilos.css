@@ -1,0 +1,65 @@
+#caja {
+    width: 880px;
+    background: rgb(220, 220, 221);
+    margin: 0 auto;
+    position: relative;
+}
+
+#boton-encriptar-desencriptar button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+#botonEncriptar {
+    background-color: blue;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#botonDesencriptar {
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+}
+
+#pantalla { 
+    display: flex;
+}
+
+#textoAcifrar {
+    background: rgb(220, 220, 221);
+    padding: 40px;
+    border: 0;
+    outline: none;
+}
+
+#textoEnpantalla {
+    background: white;
+    height: 320px;
+    width: 300px;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+#boton {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 320px;
+    left: 538px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:480px) {
+
+}
